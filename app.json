@@ -1,14 +1,15 @@
 {
   "expo": {
-    "name": "RNCourse",
-    "slug": "RNCourse",
+    "name": "Guess My Number",
+    "slug": "guess-my-number",
     "version": "1.0.0",
-    "orientation": "default",
-    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "icon": "./assets/images/dice.webp",
+    "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/dice.webp",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#72063c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,16 +18,26 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/images/dice.webp",
+        "resizeMode": "contain",
+        "backgroundColor": "#72063c"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/images/dice.webp",
+        "backgroundColor": "#72063c"
+      },
+      "splash": {
+        "image": "./assets/images/dice.webp",
+        "resizeMode": "contain",
+        "backgroundColor": "#72063c"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/images/dice.webp"
     }
   }
 }
